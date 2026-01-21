@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Env
+.env
+
+# OS
+.DS_Store
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# VS Code (if used)
+.vscode/
