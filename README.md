@@ -1,4 +1,6 @@
-# Better Stack Chaos Demo
+# Better Stack Chaos Demo 
+
+## Monitoring & Incident Demo (Better Stack)
 
 Tiny FastAPI service with:
 - `GET /health` → always 200
