@@ -24,6 +24,10 @@ if posthog:
         event="posthog_test_event"
     )
 
+@app.get("/", response_class=PlainTextResponse)
+def root():
+    return "OK - try /health or /chaos"
+
 @app.get("/health")
 async def health():
     if posthog:
