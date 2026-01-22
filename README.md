@@ -18,6 +18,10 @@ Status page: https://status.lillacsanaky.dev/
 
 The API emits explicit PostHog events to track endpoint usage, failure rate, and request latency. This complements uptime monitoring and incident alerts.
 
+Environment variables:
+- POSTHOG_API_KEY
+- POSTHOG_HOST (EU: https://eu.i.posthog.com)
+
 ---
 
 Tiny FastAPI service with:

@@ -26,7 +26,7 @@ if posthog:
 
 @app.get("/", response_class=PlainTextResponse)
 def root():
-    return "OK - try /health or /chaos"
+    return "Chaos Demo API is running. Try /health or /chaos."
 
 @app.get("/health")
 async def health():
