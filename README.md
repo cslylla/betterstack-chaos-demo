@@ -1,4 +1,6 @@
-# Better Stack Chaos Demo
+# Chaos Demo API (Better Stack + PostHog)
+
+**Uptime + incidents via Better Stack; backend event analytics via PostHog.**
 
 ## Monitoring & Incident Demo (Better Stack)
 
@@ -11,6 +13,10 @@ The incident is acknowledged, updated, and resolved once the service is stabiliz
 The status page also includes a completed scheduled maintenance window to demonstrate planned operational workflows.
 
 Status page: https://status.lillacsanaky.dev/
+
+## Analytics (PostHog)
+
+The API emits explicit PostHog events to track endpoint usage, failure rate, and request latency. This complements uptime monitoring and incident alerts.
 
 ---
 
